@@ -25,7 +25,7 @@
     width: 100%;
     text-align: center;
     width: fit-content;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 .menuHomeSlash{
     font-size: 35%;
