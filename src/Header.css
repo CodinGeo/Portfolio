@@ -1,0 +1,18 @@
+.header{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: left;
+}
+.headerSegment1{
+    width: 25%;
+    margin: 0 1% 0 1%;
+}
+.headerSegment2{
+    width: 50%;
+    margin: 1% 0 0 0;
+}
+.headerLogo{
+   height: calc(min(6vw, 7.5vh));
+   cursor: pointer;
+}

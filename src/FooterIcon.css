@@ -1,0 +1,19 @@
+.footerIcon{
+    border-radius: 100%;
+    width: 5%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(min(7vw, 6vh));
+    height: calc(min(7vw, 6vh));
+    cursor: pointer;
+}
+.footerInsideIcon{
+    width: calc(min(5vw, 5vh));
+    height: calc(min(5vw, 5vh));
+}
+.footerInsideIconTxt{
+    font-size: 30%;
+    margin: 3% 0 0 3%;
+}

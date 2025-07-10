@@ -1,0 +1,29 @@
+@font-face{
+  font-family: Cornerstone;
+  src: url(/fonts/Comfortaa-Regular.ttf);
+}
+html{
+  width: 100%;
+  height: 100%;
+  font-family: Cornerstone;
+  --bg-color: #151515;
+  --font-color: #F4FFFD;
+  --secondary-font-color: #999999;
+  --accent-color: #30C5FF;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-size: calc(min(6dvw, 10dvh));
+}
+#root
+{
+  width: 100%;
+  height: 100%;
+}
+a{
+  color: var(--font-color);
+  text-decoration: none;
+}
