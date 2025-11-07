@@ -3,16 +3,17 @@
     flex-direction: row;
     gap: 2%;
 }
-.aboutColumn{
+.aboutBox{
     width: 17%;
     height: 75%;
-    border: 1.5px solid var(--accent-color);
-    border-radius: 20px;
+    border: 0.15vw solid var(--secondary-color);
+    border-radius: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3% 2%;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20%;
 }
 .aboutSection{
     width: 100%;
@@ -41,8 +42,8 @@
 .aboutHeroPic{
     width: 30%;
     aspect-ratio: 1;
-    border: 1.5px var(--accent-color) solid;
-    border-radius: 90px;
+    border: 0.1vw var(--secondary-color) solid;
+    border-radius: 80%;
 }
 .aboutHeroName{
     font-size: 40%;
@@ -72,6 +73,7 @@
 }
 .aboutStackItem{
     width: 18%;
+    min-width: 3vw;
     aspect-ratio: 1;
 }
 .aboutNumbersSection{
@@ -123,4 +125,86 @@
 }
 .aboutValuesText{
     font-size: 20%;
+}
+
+/*//////////////MOBILE//////////////*/
+@media only screen and (max-width: 800px){
+    .about{
+        flex-direction: column;
+    }
+    .aboutBox{
+        width: 70%;
+        flex-direction: row;
+        gap: 10%;
+        justify-content: center;
+        padding: 5%;
+        border-radius: 10%;
+    }
+    .aboutTitle{
+        font-size: 70%;
+    }
+    .aboutFirstBox{
+        height: 30%;
+    }
+    .aboutHero{
+        width: 100%;
+        justify-content: center;
+    }
+    .aboutHeroPic{
+        width: 25%;
+    }
+    .aboutHeroName{
+        width: 40%;
+    }
+    .aboutDesc{
+        font-size: 28%;
+        text-align: center;
+    }
+    .aboutSecondBox{
+        height: 50%;
+    }
+    .aboutStackSection{
+        width: 32%;
+    }
+    .aboutStackContent{
+        margin: 15% 0 0 0;
+    }
+    .aboutStackItem{
+        width: 25%;
+    }
+    .aboutNumbersSection{
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+    .aboutNumbersContent{
+        justify-content: space-between;
+        display: flex;
+    }
+    .aboutNumbersItemNumber{
+        font-size: 40%;
+        margin: 0 0 2% 0;
+    }
+    .aboutNumbersItemDesc{
+        font-size: 25%;
+    }
+    .aboutLangContent{
+        font-size: 200%;
+    }
+    .aboutThirdBox{
+        height: 50%;
+    }
+    .aboutValuesSection{
+        height: fit-content;
+    }
+    .aboutTitle{
+        margin: 0 0 8% 0;
+    }
+    .aboutValuesContent{
+        flex-direction: row;
+        height: fit-content;
+    }
+    .aboutValuesText{
+        font-size: 35%;
+    }
 }

@@ -11,7 +11,7 @@ import performanceIcon from '/assets/performanceIcon.svg'
 function About(){
   return(
     <div className='about subpage'>
-        <div className='aboutColumn'>
+        <div className='aboutFirstBox aboutBox'>
             <div>
                 <div className='aboutHero'>
                     <img className='aboutHeroPic' src={heroPic}/>
@@ -19,7 +19,7 @@ function About(){
                 </div>
                 <p className='aboutDesc'>
                     I'm a freshly baked front-end developer from Poland. In the last few years I've been developing multiple websites for my highschool and personal projects.
-                    During that perios I've been also gaining knowledge in algorithms and data structeres preparing for Polish Olympiad of Informatics, in which I managed to advance to semi-finals.
+                    During that period I've been also gaining knowledge in algorithms and data structeres preparing for Polish Olympiad of Informatics, in which I managed to advance to semi-finals.
                     In my free time I like to go to outdoor hikes, especially to the mountains.
                 </p>
             </div>
@@ -33,7 +33,7 @@ function About(){
                 </div>
             </div>
         </div>
-        <div className='aboutColumn'>
+        <div className='aboutSecondBox aboutBox'>
             <div className='aboutStackSection'>
                 <h3 className='aboutTitle'>
                     Tech I use
@@ -70,7 +70,7 @@ function About(){
                             <h4 className='aboutNumbersItemDesc'>Lines of code</h4>
                         </div>
                         <div className='aboutNumbersItem'>
-                            <h4 className='aboutNumbersItemNumber'>2</h4>
+                            <h4 className='aboutNumbersItemNumber'>36</h4>
                             <h4 className='aboutNumbersItemDesc'>Stack Overflow saves</h4>
                         </div>
                         <div className='aboutNumbersItem'>
@@ -81,10 +81,10 @@ function About(){
                 </div>
             </div>
         </div>
-        <div className='aboutColumn'>
+        <div className='aboutThirdBox aboutBox'>
             <div className='aboutValuesSection'>
                 <h3 className='aboutTitle'>
-                    My coding values
+                    My coding goals
                 </h3>
                 <div className='aboutValuesContent aboutSectionContent'>
                     <div className='aboutValuesItem'>
@@ -93,7 +93,7 @@ function About(){
                     </div>
                     <div className='aboutValuesItem'>
                         <img src={cleanIcon} className='aboutValuesIcon'/>
-                        <h4 className='aboutValuesText'>Clean</h4>
+                        <h4 className='aboutValuesText'>Cleanliness</h4>
                     </div>
                     <div className='aboutValuesItem'>
                         <img src={performanceIcon} className='aboutValuesIcon'/>

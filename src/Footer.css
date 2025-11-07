@@ -13,3 +13,13 @@
     justify-content: end;
     margin: 0 1% 1% 0;
 }
+
+/*//////////////MOBILE//////////////*/
+@media only screen and (max-width: 800px){
+    .footer{
+        height: 12%;
+    }
+    .footerIcons{
+        width: 10%;
+    }
+} 

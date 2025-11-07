@@ -19,5 +19,15 @@
 }
 .menuHeaderSlash{
     font-size: 35%;
-    color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+/*//////////////MOBILE//////////////*/
+@media only screen and (max-width: 800px){
+    .menuHeaderEl{
+        font-size: 55%;
+    }
+    .menuHeaderSlash{
+        font-size: 55%;
+    }
 }

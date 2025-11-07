@@ -29,5 +29,18 @@
 }
 .menuHomeSlash{
     font-size: 35%;
-    color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+/*//////////////MOBILE//////////////*/
+@media only screen and (max-width: 800px){
+    .homeTitle{
+        font-size: 120%;
+    }
+    .menuHomeEl{
+        font-size: 50%;
+    }
+    .menuHomeSlash{
+        font-size: 50%;
+    }
 }

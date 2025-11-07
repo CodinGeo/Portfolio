@@ -8,7 +8,7 @@
     justify-content: center;
     font-size: 100%;
     margin: 0 0 7% 0;
-    letter-spacing: -1px;
+    letter-spacing: 0.01%;
 }
 .contactForm{
     width: 60%;
@@ -52,16 +52,16 @@
 .contactFormInput{
     background-color: #090909;
     border: none;
-    color: var(--font-color);
+    color: var(--primary-color);
     font-size: 25%;
-    border-radius: 5px;
-    border: 2px solid var(--accent-color);
+    border-radius: 1vw;
+    border: 0.1vw solid var(--secondary-color);
     transition: all 0.2s ease-out;
     outline: none;
-    padding: 5px;
+    padding: 1%;
 }
 .contactFormInput:focus{
-    border: 2px solid var(--font-color)
+    border: 0.1vw solid var(--primary-color)
 }
 .contactFormButtonRow{
     width: 100%;
@@ -74,9 +74,12 @@
     width: 10%;
     margin: 0 0 0 0;
     background-color: rgba(0, 0, 0, 0);
-    border: 2px solid var(--accent-color);
-    color: var(--font-color);
-    border-radius: 10px;
+    border: 0.1vw solid var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 15%;
+    cursor: pointer;
+    font-size: 25%;
+    font-weight: 500;
 }
 .contactFormCaptcha{
     z-index: 100;
