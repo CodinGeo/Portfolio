@@ -56,7 +56,9 @@ function Contact(){
         </div>
         <div className='contactFormButtonRow'>
           <input className='contactFormButton' type='submit' value='Send'></input>
-          <HCaptcha data-size="compact" className='contactFormCaptcha' sitekey="a53cee2e-cf68-4ece-9d78-91befc3c2472" onVerify={(token)=>{setCaptchaToken(token)}} ref={captchaRef}/>
+          <div className='contactFormCaptchaContainer'>
+            <HCaptcha data-size='invisible' className='contactFormCaptcha' sitekey="a53cee2e-cf68-4ece-9d78-91befc3c2472" onVerify={(token)=>{setCaptchaToken(token)}} ref={captchaRef}/>
+          </div>
         </div>
       </form>
     </div>

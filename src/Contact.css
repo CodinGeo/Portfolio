@@ -1,45 +1,48 @@
 .contact{
     display: flex;
     flex-direction: column;
+    height: 76%;
+    align-items: center;
 }
 .contactTitle{
     width: 100%;
     display: flex;
     justify-content: center;
-    font-size: 100%;
-    margin: 0 0 7% 0;
+    font-size: 5rem;
     letter-spacing: 0.01%;
 }
 .contactForm{
     width: 60%;
     display: flex;
+    justify-content: center;
     align-items: start;
     flex-direction: column;
-    margin: 0 20% 0 20%;
-    height: 100%;
+    margin: 0 2rem 0 2rem;
+    height: 90%;
 }
 .contactFormMailRow{
     display: flex;
     flex-direction: row;
-    margin: 0 0 2% 0;
-    width: 80%;
+    margin: 0 0 2rem 0;
+    width: 100%;
     justify-content: start;
 }
 .contactFormMailLabel{
-    margin: 0.2% 2% 0 0;
+    margin: 0.6rem 1rem 0 0;
+    width: auto;
 }
 .contactFormMail{
-    width: 55%;
+    width: 80%;
 }
 .contactFormMessageRow{
     width: 100%;
-    margin: 0 0 5% 0;
+    margin: 0 0 2rem 0;
     display: flex;
     flex-direction: column;
     height: 50%;
 }
 .contactFormMessageLabel{
-    margin: 0 0 3% 0;
+    margin: 0 0 1rem 0;
 }
 .contactFormMessage{
     width: 98%;
@@ -47,21 +50,21 @@
     resize: none;
 }
 .contactFormLabel{
-    font-size: 40%;
+    font-size: 1.5rem
 }
 .contactFormInput{
     background-color: #090909;
     border: none;
     color: var(--primary-color);
-    font-size: 25%;
-    border-radius: 1vw;
-    border: 0.1vw solid var(--secondary-color);
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--secondary-color);
     transition: all 0.2s ease-out;
     outline: none;
     padding: 1%;
 }
 .contactFormInput:focus{
-    border: 0.1vw solid var(--primary-color)
+    border: 0.1rem solid var(--primary-color)
 }
 .contactFormButtonRow{
     width: 100%;
@@ -70,17 +73,36 @@
     justify-content: space-between;
 }
 .contactFormButton{
-    height: 80%;
-    width: 10%;
+    height: 100%;
+    width: 20%;
     margin: 0 0 0 0;
     background-color: rgba(0, 0, 0, 0);
-    border: 0.1vw solid var(--secondary-color);
+    border: 0.1rem solid var(--secondary-color);
     color: var(--primary-color);
-    border-radius: 15%;
+    border-radius: 2rem;
+    padding: 0.5rem;
     cursor: pointer;
-    font-size: 25%;
+    font-size: 1.5rem;
     font-weight: 500;
+}
+.contactFormCaptchaContainer{
+    transform: scale(1);
+    transform-origin: 0 0;
 }
 .contactFormCaptcha{
     z-index: 100;
+}
+@media screen and (max-width: 800px){
+    .contact{
+        height: 70%;
+    }
+    .contactTitle{
+        font-size: min(5rem, 9vw);
+    }
+    .contactFormMailLabel{
+        font-size: min(1.5rem, 4vw);
+    }
+    .contactFormButton{
+        width: 40%;
+    }
 }

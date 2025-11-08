@@ -1,25 +1,25 @@
 .projects{
     display: flex;
     flex-direction: column;
+    height: 76%;
 }
 .projectsTitle
 {
-    font-size: 100%;
+    font-size: 5rem;
     text-align: center;
-    margin: 0 0 3% 0;
+    margin: 0 0 3rem 0;
 }
 .projectsList
 {
     justify-content: center;
     display: flex;
-    height: 50%;
 }
 .projectsListLeft
 {
-    margin: 0 1% 0 0;
+    margin: 0 0.5vw 0 0;
 }
 .projectsListRight > a:first-child > *{
-    margin: 0 0 2% 0;
+    margin: 0 0 0.5vw 0;
 }
 .projectsListLink{
     height: fit-content;
@@ -60,4 +60,14 @@
     margin: 0;
     opacity: 0;
     transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 800px){
+    .projects{
+        height: 70%;
+    }
+    .projectsTitle{
+        font-size: min(5rem, 9vw);
+        margin: 0 0 2rem 0;
+    }
 }

@@ -7,7 +7,6 @@ import Contact from './Contact.jsx'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import pages from './pages.jsx'
-import './App.css'
 
 function App(){
   const[page, setPage] = useState(history.state?.page ? history.state.page : pages.home)

@@ -12,7 +12,7 @@ function About(){
   return(
     <div className='about subpage'>
         <div className='aboutFirstBox aboutBox'>
-            <div>
+            <div className='aboutIntroContainer'>
                 <div className='aboutHero'>
                     <img className='aboutHeroPic' src={heroPic}/>
                     <h3 className='aboutHeroName'>Marcin Bieliński</h3>
@@ -28,8 +28,8 @@ function About(){
                     Languages
                 </h3>
                 <div className='aboutLangContent aboutSectionContent'>
-                    <h4 className='aboutLangItem'>Polish - Native</h4>
-                    <h4 className='aboutLangItem'> English - C1</h4>
+                    <p className='aboutLangItem'>Polish - Native</p>
+                    <p className='aboutLangItem'> English - C1</p>
                 </div>
             </div>
         </div>
@@ -53,29 +53,29 @@ function About(){
                     <div className='aboutNumbersItemRow'>
                         <div className='aboutNumbersItem'>
                             <h4 className='aboutNumbersItemNumber'>6</h4>
-                            <h4 className='aboutNumbersItemDesc'>Projects finished</h4>
+                            <p className='aboutNumbersItemDesc'>Projects finished</p>
                         </div>
                         <div className='aboutNumbersItem'>
                             <h4 className='aboutNumbersItemNumber'>2</h4>
-                            <h4 className='aboutNumbersItemDesc'>Projects in progress</h4>
+                            <p className='aboutNumbersItemDesc'>Projects in progress</p>
                         </div>
                         <div className='aboutNumbersItem'>
                             <h4 className='aboutNumbersItemNumber'>4</h4>
-                            <h4 className='aboutNumbersItemDesc'>Hackathons attended</h4>
+                            <p className='aboutNumbersItemDesc'>Hackathons attended</p>
                         </div>
                     </div>
                     <div className='aboutNumbersItemRow'>
                         <div className='aboutNumbersItem'>
                             <h4 className='aboutNumbersItemNumber'>~6000</h4>
-                            <h4 className='aboutNumbersItemDesc'>Lines of code</h4>
+                            <p className='aboutNumbersItemDesc'>Lines of code</p>
                         </div>
                         <div className='aboutNumbersItem'>
                             <h4 className='aboutNumbersItemNumber'>36</h4>
-                            <h4 className='aboutNumbersItemDesc'>Stack Overflow saves</h4>
+                            <p className='aboutNumbersItemDesc'>Stack Overflow saves</p>
                         </div>
                         <div className='aboutNumbersItem'>
                             <h4 className='aboutNumbersItemNumber'>many</h4>
-                            <h4 className='aboutNumbersItemDesc'>Cups of coffee</h4>
+                            <p className='aboutNumbersItemDesc'>Cups of coffee</p>
                         </div>
                     </div>
                 </div>

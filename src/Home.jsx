@@ -4,7 +4,7 @@ import './Home.css'
 function Home(props){
  return(
     <div className='home subpage'>
-        <div className='homeTitle'>
+        <div className='homeTitleContainer'>
             <h1 className='homeTitle'>Marcin Bieliński</h1>
         </div>
         <div className='menuHome'>

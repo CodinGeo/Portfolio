@@ -14,7 +14,7 @@ function IconInside(props){
 }
 function FooterIcon(props) {
     const iconStyle = {
-        border: `calc(min(0.4vh, 0.5vw)) solid ${props.color}`
+        border: `0.15rem solid ${props.color}`
     }
     return(
         <a href={props.link} target='_blank'>

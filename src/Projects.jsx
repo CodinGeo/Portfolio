@@ -10,9 +10,9 @@ import zsoPagePoster from '/assets/zso8PagePoster.webp';
 function Projects(){
   const ProjectItem = (props)=>{
     return(
-      <div className='projectsListItem' style={{height: props.size==='large'?'100%':'49%'}}>
+      <div className='projectsListItem' style={{height: props.size==='large'?'min(26rem, 32vw)':'min(12.8rem, 15.8vw'}}>
         <video className='projectsListItemVid' src={props.src} poster={props.poster} type='video/mp4' autoPlay='autoplay' muted loop/>
-        <h3 className='projectsListItemTitle' style={{fontSize: props.size==='large'?'70%':'45%'}}>{props.title}</h3>
+        <h3 className='projectsListItemTitle' style={{fontSize: props.size==='large'?'4rem':'2rem'}}>{props.title}</h3>
       </div>
     );
   }

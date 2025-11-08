@@ -1,13 +1,12 @@
 .footerIcon{
     border-radius: 100%;
-    width: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(min(7vw, 6vh));
-    height: calc(min(7vw, 6vh));
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
 }
 .footerInsideIcon{
-    width: 80%;
+    width: 3.2rem;
 }
