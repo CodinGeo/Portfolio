@@ -31,6 +31,18 @@
     transition: all 0.2s ease-out;
     display: flex;
 }
+.projectsListItemLarge{
+    height: 25rem;
+}
+.projectsListItemSmall{
+    height: 12.2rem;
+}
+.projectsListItemTitleLarge{
+    font-size: 5rem;
+}
+.projectsListItemTitleSmall{
+    font-size: 2rem;
+}
 .projectsListItemVid
 {
     position: relative;
@@ -62,12 +74,70 @@
     transition: all 0.2s ease-out;
 }
 
-@media screen and (max-width: 800px){
-    .projects{
-        height: 70%;
+@media screen and (max-width: 1300px){
+    .projectsListItemLarge{
+        height: 18rem;
     }
+    .projectsListItemSmall{
+        height: 8.8rem;
+    }
+    .projectsListItemTitleLarge{
+        font-size: 3rem;
+    }
+    .projectsListItemTitleSmall{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px){
     .projectsTitle{
-        font-size: min(5rem, 9vw);
-        margin: 0 0 2rem 0;
+        font-size: 4rem;
+    }
+    .projectsList{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectsListLeft{
+       width: fit-content;
+       margin: 0 0 1rem 0;
+    }
+    .projectsListRight{
+        width: fit-content;
+    }
+    .projectsListRight > a:first-child > *{
+        margin: 0 0 1rem 0;
+    }
+    .projectsListItemLarge{
+        height: 15rem;
+    }
+    .projectsListItemSmall{
+        height: 15rem;
+    }
+    .projectsListItem{
+        width: fit-content;
+    }
+    .projectsListItemTitleLarge{
+        font-size: 3rem;
+    }
+    .projectsListItemTitleSmall{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .projectsTitle{
+        font-size: 3rem;
+    }
+    .projectsListItemLarge{
+        height: 10rem;
+    }
+    .projectsListItemSmall{
+        height: 10rem;
+    }
+    .projectsListItemTitleLarge{
+        font-size: 2.3rem;
+    }
+    .projectsListItemTitleSmall{
+        font-size: 2.3rem;
     }
 }

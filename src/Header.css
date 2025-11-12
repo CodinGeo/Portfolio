@@ -4,16 +4,17 @@
     display: flex;
     justify-content: left;
     align-items: center;
+    margin: 2rem 0 2rem 0;
 }
 .headerSegment{
     height: fit-content;
 }
 .headerSegment1{
-    width: 20%;
-    margin: 0 0 0 1rem;
+    width: 15%;
+    margin: 0 0 0 2rem;
 }
 .headerSegment2{
-    width: 60%;
+    width: 70%;
     margin: 0 0 0 0;
 }
 .headerLogo{
@@ -21,17 +22,16 @@
    cursor: pointer;
 }
 
-/*//////////////MOBILE//////////////*/
 @media only screen and (max-width: 800px){
     .header{
-        height: 15%;
-    }
-    .headerSegment1{
-        margin: 2rem 0 0 2rem;
-        width: 15%;
+        min-height: 15%;
+        padding: 1rem 0 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 0 0.5rem 0;
     }
     .headerSegment2{
         width: 70%;
-        margin: 2rem 0 0 0;
     }
 }

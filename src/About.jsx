@@ -50,33 +50,29 @@ function About(){
                     Career in numbers
                 </h3>
                 <div className='aboutNumbersContent aboutSectionContent'>
-                    <div className='aboutNumbersItemRow'>
-                        <div className='aboutNumbersItem'>
-                            <h4 className='aboutNumbersItemNumber'>6</h4>
-                            <p className='aboutNumbersItemDesc'>Projects finished</p>
-                        </div>
-                        <div className='aboutNumbersItem'>
-                            <h4 className='aboutNumbersItemNumber'>2</h4>
-                            <p className='aboutNumbersItemDesc'>Projects in progress</p>
-                        </div>
-                        <div className='aboutNumbersItem'>
-                            <h4 className='aboutNumbersItemNumber'>4</h4>
-                            <p className='aboutNumbersItemDesc'>Hackathons attended</p>
-                        </div>
+                    <div className='aboutNumbersItem boutNumbersItem1'>
+                        <h4 className='aboutNumbersItemNumber'>6</h4>
+                        <p className='aboutNumbersItemDesc'>Projects finished</p>
                     </div>
-                    <div className='aboutNumbersItemRow'>
-                        <div className='aboutNumbersItem'>
-                            <h4 className='aboutNumbersItemNumber'>~6000</h4>
-                            <p className='aboutNumbersItemDesc'>Lines of code</p>
-                        </div>
-                        <div className='aboutNumbersItem'>
-                            <h4 className='aboutNumbersItemNumber'>36</h4>
-                            <p className='aboutNumbersItemDesc'>Stack Overflow saves</p>
-                        </div>
-                        <div className='aboutNumbersItem'>
-                            <h4 className='aboutNumbersItemNumber'>many</h4>
-                            <p className='aboutNumbersItemDesc'>Cups of coffee</p>
-                        </div>
+                    <div className='aboutNumbersItem aboutNumbersItem2'>
+                        <h4 className='aboutNumbersItemNumber'>2</h4>
+                        <p className='aboutNumbersItemDesc'>Projects in progress</p>
+                    </div>
+                    <div className='aboutNumbersItem aboutNumbersItem3'>
+                        <h4 className='aboutNumbersItemNumber'>4</h4>
+                        <p className='aboutNumbersItemDesc'>Hackathons attended</p>
+                    </div>
+                    <div className='aboutNumbersItem aboutNumbersItem4'>
+                        <h4 className='aboutNumbersItemNumber'>~6000</h4>
+                        <p className='aboutNumbersItemDesc'>Lines of code</p>
+                    </div>
+                    <div className='aboutNumbersItem aboutNumbersItem5'>
+                        <h4 className='aboutNumbersItemNumber'>36</h4>
+                        <p className='aboutNumbersItemDesc'>Stack Overflow saves</p>
+                    </div>
+                    <div className='aboutNumbersItem aboutNumbersItem6'>
+                        <h4 className='aboutNumbersItemNumber'>many</h4>
+                        <p className='aboutNumbersItemDesc'>Cups of coffee</p>
                     </div>
                 </div>
             </div>

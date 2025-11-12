@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     height: 76%;
+    align-items: center!important;
 }
 .homeTitle{
-  font-size: clamp(2vw, 8rem, 10vw);
+  font-size: 8rem;
   margin: 0 0 1rem 0;
 }
 .menuHome{
@@ -20,15 +21,27 @@
     gap: 1rem;
 }
 .menuHomeEl{
-    font-size: clamp(1vw, 2rem, 2.5vw);
+    font-size: 2rem;
     width: 100%;
     text-align: center;
     width: fit-content;
     cursor: pointer;
 }
 .menuHomeSlash{
-    font-size: clamp(1vw, 2rem, 2.5vw);
+    font-size: 2rem;
     color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 1300px){
+    .homeTitle{
+        font-size: 5rem;
+    }
+    .menuHomeEl{
+        font-size: 1.5rem;
+    }
+    .menuHomeSlash{
+        font-size: 1.5rem;
+    }
 }
 
 /*//////////////MOBILE//////////////*/
@@ -40,16 +53,31 @@
         max-width: 80%;
     }
     .homeTitle{
-        font-size: clamp(2rem, 5rem, 12vw);
+        font-size: 5rem;
         text-align: center;
     }
     .menuHome{
         gap: 0.5rem;
     }
     .menuHomeEl{
-        font-size: clamp(1rem, 3rem, 4vw);
+        font-size: 1.5rem;
     }
     .menuHomeSlash{
-        font-size: clamp(1rem, 3rem, 4vw);
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .homeTitle{
+        font-size: 3rem;
+    }
+    .menuHome{
+        gap: 0.25rem;
+    }
+    .menuHomeEl{
+        font-size: 1rem;
+    }
+    .menuHomeSlash{
+        font-size: 1rem;
     }
 }

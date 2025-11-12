@@ -15,7 +15,7 @@ function Header(props){
                     <MenuHeader handlePageChange={props.handlePageChange} page={props.page}/>
                 )}
             </div>
-            <div className='headerSegment headerSegment1'>
+            <div className='headerSegment headerSegment1 headerSegmentLast'>
             </div>
         </div>
     )
