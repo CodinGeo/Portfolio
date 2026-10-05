@@ -18,7 +18,7 @@ function About(){
                     <h3 className='aboutHeroName'>Marcin Bieliński</h3>
                 </div>
                 <p className='aboutDesc'>
-                    I'm a freshly baked front-end developer from Poland. In the last few years I've been developing multiple websites for my highschool and personal projects.
+                    I'm a freshly baked developer from Poland. In the last few years I've been developing multiple websites for my highschool and personal projects.
                     During that period I've been also gaining knowledge in algorithms and data structeres preparing for Polish Olympiad of Informatics, in which I managed to advance to semi-finals.
                     In my free time I like to go to outdoor hikes, especially to the mountains.
                 </p>
