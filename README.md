@@ -9,7 +9,7 @@ Personal portfolio website built with **React** and **Vite**, deployed at [bieli
 A responsive single-page portfolio application showcasing web development projects, skills, career highlights, and a contact form.
 
 ### Features
-- **Project Showcase**: Video previews and links to live production websites (e.g., school portals such as 17 LO Gdynia, SP 37 Gdynia, and ZSO 8 Gdynia).
+- **Project Showcase**: Video previews and links to live production websites
 - **About Me**: Summary of technical skills, language proficiencies, and career milestones.
 - **Contact Form**: Protected against spam using invisible **hCaptcha** and processed via a Google Cloud Functions backend.
 - **Lightweight Navigation**: State-driven page switching integrated with the browser History API (`pushState` / `popstate`).
@@ -50,22 +50,6 @@ Run the Vite development server:
 ```bash
 npm run dev
 ```
-
-### Production Build
-
-Create an optimized production build:
-```bash
-npm run build
-```
-
-Preview the production build locally:
-```bash
-npm run preview
-```
-
-```
-
----
 
 ## 📬 Contact & Socials
 
