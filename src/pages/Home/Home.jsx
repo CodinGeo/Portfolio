@@ -1,5 +1,5 @@
-import pages from './pages.jsx'
-import './Home.css'
+import pages from '/src/consts/pages.js'
+import '/src/pages/Home/Home.css'
 
 function Home(props){
  return(

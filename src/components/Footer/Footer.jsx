@@ -1,5 +1,5 @@
-import FooterIcon from './FooterIcon.jsx'
-import './Footer.css'
+import FooterIcon from '/src/components/Footer/FooterIcon.jsx'
+import '/src/components/Footer/Footer.css'
 
 import linkedInLogo from '/assets/linkedInLogo.svg'
 import ghLogo from '/assets/ghLogo.svg'

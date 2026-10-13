@@ -11,7 +11,7 @@ A responsive single-page portfolio application showcasing web development projec
 ### Features
 - **Project Showcase**: Video previews and links to live production websites
 - **About Me**: Summary of technical skills, language proficiencies, and career milestones.
-- **Contact Form**: Protected against spam using invisible **hCaptcha** and processed via a Google Cloud Functions backend.
+- **Contact Form**: Protected against spam using **Honeypot Botcheck** and delivered via **Web3Forms** serverless API.
 - **Lightweight Navigation**: State-driven page switching integrated with the browser History API (`pushState` / `popstate`).
 
 ---
@@ -20,7 +20,7 @@ A responsive single-page portfolio application showcasing web development projec
 
 - **Frontend**: [React 19](https://react.dev/), [Vite](https://vite.dev/)
 - **Styling**: Vanilla CSS (Modular subpage stylesheets)
-- **Security & Bot Protection**: [@hcaptcha/react-hcaptcha](https://github.com/hCaptcha/react-hcaptcha)
+- **Contact & Bot Protection**: [Web3Forms](https://web3forms.com/) (Honeypot anti-spam)
 - **Deployment**: [GitHub Pages](https://pages.github.com/) via `gh-pages` with custom CNAME (`bieli.dev`)
 
 ---

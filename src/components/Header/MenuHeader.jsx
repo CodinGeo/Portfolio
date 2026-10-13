@@ -1,5 +1,5 @@
-import pages from './pages'
-import './MenuHeader.css'
+import pages from '/src/consts/pages.js'
+import '/src/components/Header/MenuHeader.css'
 
 function MenuHeader(props){
     return(

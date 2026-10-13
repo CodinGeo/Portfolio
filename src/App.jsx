@@ -1,12 +1,12 @@
 import {useState, useEffect} from 'react'
 
-import Home from './Home.jsx'
-import About from './About.jsx'
-import Projects from './Projects.jsx'
-import Contact from './Contact.jsx'
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import pages from './pages.jsx'
+import Home from '/src/pages/Home/Home.jsx'
+import About from '/src/pages/About/About.jsx'
+import Projects from '/src/pages/Projects/Projects.jsx'
+import Contact from '/src/pages/Contact/Contact.jsx'
+import Header from '/src/components/Header/Header.jsx'
+import Footer from '/src/components/Footer/Footer.jsx'
+import pages from '/src/consts/pages.js'
 
 function App(){
   const[page, setPage] = useState(history.state?.page ? history.state.page : pages.home)

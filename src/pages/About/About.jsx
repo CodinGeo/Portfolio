@@ -1,4 +1,4 @@
-import './About.css'
+import '/src/pages/About/About.css'
 
 import heroPic from '/assets/heroPic.png'
 import reactLogo from '/assets/reactLogo.svg'

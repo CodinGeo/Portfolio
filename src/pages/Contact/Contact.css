@@ -73,7 +73,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: end;
 }
 .contactFormButton{
     height: 100%;
@@ -87,13 +87,6 @@
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 500;
-}
-.contactFormCaptchaContainer{
-    transform: scale(1);
-    transform-origin: 0 0;
-}
-.contactFormCaptcha{
-    z-index: 100;
 }
 @media screen and (max-width: 1300px){
     .contactTitle{
@@ -126,9 +119,6 @@
     .contactFormButtonRow{
         flex-direction: column-reverse;
         align-items: end;
-    }
-    .contactFormCaptchaContainer{
-        margin: 0 0 1rem 0;
     }
     .contactFormButton{
         width: 10rem;

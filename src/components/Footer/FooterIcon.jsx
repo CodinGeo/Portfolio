@@ -1,4 +1,4 @@
-import './FooterIcon.css'
+import '/src/components/Footer/FooterIcon.css'
 
 function IconInside(props){
     if(props.path){

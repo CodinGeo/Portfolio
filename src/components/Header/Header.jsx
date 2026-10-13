@@ -1,6 +1,6 @@
-import MenuHeader from './MenuHeader.jsx'
-import pages from './pages'
-import './Header.css'
+import MenuHeader from '/src/components/Header/MenuHeader.jsx'
+import pages from '/src/consts/pages.js'
+import '/src/components/Header/Header.css'
 
 import logo from '/assets/logo.png'
 

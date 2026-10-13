@@ -1,11 +1,11 @@
-import './Projects.css'
+import '/src/pages/Projects/Projects.css'
 
-import loPage from '/assets/17loPage.mp4';
-import spPage from '/assets/sp37Page.mp4';
-import zsoPage from '/assets/zso8Page.mp4';
-import loPagePoster from '/assets/17loPagePoster.webp';
-import spPagePoster from '/assets/sp37PagePoster.webp';
-import zsoPagePoster from '/assets/zso8PagePoster.webp';
+import loPage from '/assets/17loPage.mp4'
+import spPage from '/assets/sp37Page.mp4'
+import zsoPage from '/assets/zso8Page.mp4'
+import loPagePoster from '/assets/17loPagePoster.webp'
+import spPagePoster from '/assets/sp37PagePoster.webp'
+import zsoPagePoster from '/assets/zso8PagePoster.webp'
 
 function Projects(){
   const ProjectItem = (props)=>{
